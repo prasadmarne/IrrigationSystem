@@ -13,6 +13,9 @@ json to send format:
     "phone_no": 142612839
 }
 
+insert will return u insertId in message property.
+but message propety is an array contains multiple properties so keep that in mind.
+
 2)display
 
 use http get
