@@ -1,4 +1,5 @@
 1)insert steps:
+
 url: "http://localhost:3000/api/insert"
 use http post 
 http header: content-type:application/json.
@@ -13,7 +14,7 @@ json to send format:
 }
 
 2)display
-
+use http get
 url:"http://localhost:3000/api/display"
 
 return json conytainig all users;
@@ -45,6 +46,7 @@ example:
 
 
 3)search:
+use http get.
 url:"http://localhost:3000/api/search?id=201"
 here id= is id to search in database;
 return user details;
@@ -66,6 +68,7 @@ example:
 }
 
 4)update
+use http put
 url:"http://localhost:3000/api/update"
 json to send to server for updating is:
 {
@@ -94,6 +97,7 @@ it returns
 }
 
 5)delete
+use http delete.
 url:"http://localhost:3000/api/delete?id=3"
 it returns
 {
