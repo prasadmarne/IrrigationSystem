@@ -14,6 +14,8 @@ json to send format:
 }
 
 insert will return u insertId in message property.
+insertId is id of ur inserted query.
+u will need it for updating ,search ,deleting.
 but message propety is an array contains multiple properties so keep that in mind.
 
 2)display
